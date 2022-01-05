@@ -47,7 +47,7 @@ public class SavingsCalculator {
 
 
         int totalDaysInMonth = yearMonth.lengthOfMonth();
-        int remainingDays = date.getDayOfMonth() - totalDaysInMonth;
+        int remainingDays = totalDaysInMonth - date.getDayOfMonth();
 
         return remainingDays;
     }
