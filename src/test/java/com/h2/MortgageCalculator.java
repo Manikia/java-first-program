@@ -36,7 +36,6 @@ public class MortgageCalculator {
 //        n is the total number of payments which you can find by calling getNumberOfPayments().
         double M = P * (r*(Math.pow(1+r, n))/(Math.pow(1+r, n) - 1));
 
-        //double M = P * (((r * Math.pow(1 + r, n))) / ((Math.pow((1 + r), n)) - 1));
         this.monthlyPayment = M;
     }
     public String toString()
