@@ -20,36 +20,15 @@ public class Finance {
         {
             case "BEST_LOAN_RATES":
             {
-                if(args.length == 1)
-                {
                     return args.length == 1;
-                }
-                else
-                {
-                    break;
-                }
             }
             case "SAVINGS_CALCULATOR":
             {
-                if(args.length == 3)
-                {
                     return args.length == 3;
-                }
-                else
-                {
-                    break;
-                }
             }
             case "MORTGAGE_CALCULATOR":
             {
-                if(args.length == 4)
-                {
                     return args.length == 4;
-                }
-                else
-                {
-                    break;
-                }
             }
         }
         return false;
