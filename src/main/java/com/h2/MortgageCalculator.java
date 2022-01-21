@@ -34,7 +34,7 @@ public class MortgageCalculator {
 //        P is the principal amount, represented by loanAmount in our class,
 //        r is the monthly interest rate, which you can find by calling getMonthlyInterestRate().
 //        n is the total number of payments which you can find by calling getNumberOfPayments().
-        double M = P * (r*(Math.pow(1+r, n))/(Math.pow(1+r, n) - 1));
+        double M = P * (((r * Math.pow(1 + r, n))) / ((Math.pow((1 + r), n)) - 1));
 
         this.monthlyPayment = M;
     }
