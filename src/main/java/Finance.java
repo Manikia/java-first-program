@@ -38,18 +38,18 @@ public class Finance {
     {
         switch(command)
         {
-            case "BEST_LOAN_RATES":
+            case BEST_LOAN_RATES:
             {
                 System.out.println("Finding best loan rates ...");
                 //calling another file main method
                 BestLoanRates.main(arguments);
             }
-            case "SAVINGS_CALCULATOR":
+            case SAVINGS_CALCULATOR:
             {
                 System.out.println("Finding your net savings ...");
                 SavingsCalculator.main(arguments);
             }
-            case "MORTGAGE_CALCULATOR":
+            case MORTGAGE_CALCULATOR:
             {
                 System.out.println("Finding your monthly payment ...");
                 MortgageCalculator.main(arguments);
